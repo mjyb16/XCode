@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		991C513322D3FC02004F8EB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C513222D3FC02004F8EB7 /* AppDelegate.swift */; };
+		991C513522D3FC02004F8EB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C513422D3FC02004F8EB7 /* ViewController.swift */; };
+		991C513822D3FC02004F8EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991C513622D3FC02004F8EB7 /* Main.storyboard */; };
+		991C513A22D3FC0C004F8EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991C513922D3FC0C004F8EB7 /* Assets.xcassets */; };
+		991C513D22D3FC0C004F8EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991C513B22D3FC0C004F8EB7 /* LaunchScreen.storyboard */; };
+		991C515B22D43EF6004F8EB7 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C515A22D43EF6004F8EB7 /* KeyboardViewController.swift */; };
+		991C515F22D43EF6004F8EB7 /* UITextField+Extensions.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 991C515822D43EF6004F8EB7 /* UITextField+Extensions.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		991C516422D43F38004F8EB7 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C516322D43F38004F8EB7 /* UITextField+Extensions.swift */; };
+		991C516722D44241004F8EB7 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C516322D43F38004F8EB7 /* UITextField+Extensions.swift */; };
+		991C516822D4424E004F8EB7 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991C515A22D43EF6004F8EB7 /* KeyboardViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		991C515D22D43EF6004F8EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 991C512722D3FC02004F8EB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991C515722D43EF6004F8EB7;
+			remoteInfo = "UITextField+Extensions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		991C515322D43D91004F8EB7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				991C515F22D43EF6004F8EB7 /* UITextField+Extensions.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		991C512F22D3FC02004F8EB7 /* Color Changer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Changer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		991C513222D3FC02004F8EB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		991C513422D3FC02004F8EB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		991C513722D3FC02004F8EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		991C513922D3FC0C004F8EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		991C513C22D3FC0C004F8EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		991C513E22D3FC0C004F8EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991C515822D43EF6004F8EB7 /* UITextField+Extensions.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UITextField+Extensions.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		991C515A22D43EF6004F8EB7 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		991C515C22D43EF6004F8EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991C516322D43F38004F8EB7 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		991C512C22D3FC02004F8EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991C515522D43EF6004F8EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		991C512622D3FC02004F8EB7 = {
+			isa = PBXGroup;
+			children = (
+				991C513122D3FC02004F8EB7 /* Color Changer */,
+				991C515922D43EF6004F8EB7 /* UITextField+Extensions */,
+				991C513022D3FC02004F8EB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		991C513022D3FC02004F8EB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				991C512F22D3FC02004F8EB7 /* Color Changer.app */,
+				991C515822D43EF6004F8EB7 /* UITextField+Extensions.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		991C513122D3FC02004F8EB7 /* Color Changer */ = {
+			isa = PBXGroup;
+			children = (
+				991C513222D3FC02004F8EB7 /* AppDelegate.swift */,
+				991C513422D3FC02004F8EB7 /* ViewController.swift */,
+				991C513622D3FC02004F8EB7 /* Main.storyboard */,
+				991C513922D3FC0C004F8EB7 /* Assets.xcassets */,
+				991C513B22D3FC0C004F8EB7 /* LaunchScreen.storyboard */,
+				991C513E22D3FC0C004F8EB7 /* Info.plist */,
+			);
+			path = "Color Changer";
+			sourceTree = "<group>";
+		};
+		991C515922D43EF6004F8EB7 /* UITextField+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				991C515A22D43EF6004F8EB7 /* KeyboardViewController.swift */,
+				991C516322D43F38004F8EB7 /* UITextField+Extensions.swift */,
+				991C515C22D43EF6004F8EB7 /* Info.plist */,
+			);
+			path = "UITextField+Extensions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		991C512E22D3FC02004F8EB7 /* Color Changer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991C514122D3FC0C004F8EB7 /* Build configuration list for PBXNativeTarget "Color Changer" */;
+			buildPhases = (
+				991C512B22D3FC02004F8EB7 /* Sources */,
+				991C512C22D3FC02004F8EB7 /* Frameworks */,
+				991C512D22D3FC02004F8EB7 /* Resources */,
+				991C515322D43D91004F8EB7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991C515E22D43EF6004F8EB7 /* PBXTargetDependency */,
+			);
+			name = "Color Changer";
+			productName = "Color Changer";
+			productReference = 991C512F22D3FC02004F8EB7 /* Color Changer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		991C515722D43EF6004F8EB7 /* UITextField+Extensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991C516022D43EF6004F8EB7 /* Build configuration list for PBXNativeTarget "UITextField+Extensions" */;
+			buildPhases = (
+				991C515422D43EF6004F8EB7 /* Sources */,
+				991C515522D43EF6004F8EB7 /* Frameworks */,
+				991C515622D43EF6004F8EB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITextField+Extensions";
+			productName = "UITextField+Extensions";
+			productReference = 991C515822D43EF6004F8EB7 /* UITextField+Extensions.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		991C512722D3FC02004F8EB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Nuntium;
+				TargetAttributes = {
+					991C512E22D3FC02004F8EB7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					991C515722D43EF6004F8EB7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 991C512A22D3FC02004F8EB7 /* Build configuration list for PBXProject "Color Changer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 991C512622D3FC02004F8EB7;
+			productRefGroup = 991C513022D3FC02004F8EB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				991C512E22D3FC02004F8EB7 /* Color Changer */,
+				991C515722D43EF6004F8EB7 /* UITextField+Extensions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		991C512D22D3FC02004F8EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991C513D22D3FC0C004F8EB7 /* LaunchScreen.storyboard in Resources */,
+				991C513A22D3FC0C004F8EB7 /* Assets.xcassets in Resources */,
+				991C513822D3FC02004F8EB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991C515622D43EF6004F8EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		991C512B22D3FC02004F8EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991C516722D44241004F8EB7 /* UITextField+Extensions.swift in Sources */,
+				991C513522D3FC02004F8EB7 /* ViewController.swift in Sources */,
+				991C513322D3FC02004F8EB7 /* AppDelegate.swift in Sources */,
+				991C516822D4424E004F8EB7 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991C515422D43EF6004F8EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991C515B22D43EF6004F8EB7 /* KeyboardViewController.swift in Sources */,
+				991C516422D43F38004F8EB7 /* UITextField+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		991C515E22D43EF6004F8EB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991C515722D43EF6004F8EB7 /* UITextField+Extensions */;
+			targetProxy = 991C515D22D43EF6004F8EB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		991C513622D3FC02004F8EB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991C513722D3FC02004F8EB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		991C513B22D3FC0C004F8EB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991C513C22D3FC0C004F8EB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		991C513F22D3FC0C004F8EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		991C514022D3FC0C004F8EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		991C514222D3FC0C004F8EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFB8W2S82Y;
+				INFOPLIST_FILE = "Color Changer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nuntium.Color-Changer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		991C514322D3FC0C004F8EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFB8W2S82Y;
+				INFOPLIST_FILE = "Color Changer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nuntium.Color-Changer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		991C516122D43EF6004F8EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFB8W2S82Y;
+				INFOPLIST_FILE = "UITextField+Extensions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nuntium.Color-Changer.UITextField-Extensions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		991C516222D43EF6004F8EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFB8W2S82Y;
+				INFOPLIST_FILE = "UITextField+Extensions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nuntium.Color-Changer.UITextField-Extensions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		991C512A22D3FC02004F8EB7 /* Build configuration list for PBXProject "Color Changer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991C513F22D3FC0C004F8EB7 /* Debug */,
+				991C514022D3FC0C004F8EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991C514122D3FC0C004F8EB7 /* Build configuration list for PBXNativeTarget "Color Changer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991C514222D3FC0C004F8EB7 /* Debug */,
+				991C514322D3FC0C004F8EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991C516022D43EF6004F8EB7 /* Build configuration list for PBXNativeTarget "UITextField+Extensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991C516122D43EF6004F8EB7 /* Debug */,
+				991C516222D43EF6004F8EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 991C512722D3FC02004F8EB7 /* Project object */;
+}
